@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form basics</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form style="background-color: rgb(246, 246, 8);border: 2px solid rgb(16, 237, 16);width: 80%;margin-top: 50px;margin-left: 50px;">
+        <label style="display: block;"> Firstname :</label>      
+        <input type="text" required style="margin-left: 25px;height: 25px;border: 2px solid rgb(240, 104, 104);color: blue;"> <br> 
+        <label style="display: block;">Secondname :</label>
+        <input type="text" required style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;"><br>
+
+
+        <label style="display: block;">Password </label>
+         <input type="password" pattern="" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;"><br>
+
+
+        <label style="display: block;">Age :</label>
+        <input type="number" required><br style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">
+        <label style="display: block;">Contact no :</label>
+        <input type="number" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;"><br>
+        <label style="display: block;" >Gender :</label>
+        <input type="radio" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">Male
+        <input type="radio" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">Female
+        <input type="radio" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">Transgender<br>
+        <label style="display: block;">Country :</label>
+        <input type="checkbox" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">Indian
+        <input type="checkbox" style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">Foreigner<br>
+         <label style="display: block;">State :</label>
+         <select style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;">
+         <option>Choose your state</option>
+         <option>Tamilnadu</option>
+         <option>Kerala</option>
+         <option>Odisha</option>
+         <option>Karnataka</option>
+         <option>Srilanka</option>
+
+         </select><br>
+         <label style="display: block;">Email :</label>
+         <input type="email" style="margin-left: 25px;height: 25px;border: 2px solid red ;columns: blue;"><br>
+         <label style="display: block;">Website</label>
+         <input type="url" required style="margin-left: 25px;height: 25px;border: 2px solid red;color: blue;"><br><br>
+         <button style="background-color: navy;color: white;margin-left: 100px;">Submit</button>
+    </form>
+</body>
+</html>

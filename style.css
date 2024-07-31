@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+.video-container
+{
+    position: absolute;
+    height: 100%;
+    width:100% ;
+}
+.video-container video
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content{
+    z-index: 1;
+    
+}
+.content h1{
+    font-size: 60px;
+}
+.content a{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mid-sec
+{
+    background-color: rgb(172, 242, 31);
+    margin-top: 70px;
+}
+.mid-sec h1{
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.mid-sec p{
+    margin-left: 20px;
+}
+/*:pseudo class::pseudo element*/
+.mid-sec p::first-letter
+{
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+}
+.last-sec
+{
+    background-color: rgb(167, 239, 22);
+}
+.last-sec h1{
+    color: red;
+    text-decoration: underline;
+}
+.last-sec p{
+    margin-left: 20px;
+}
+/*:pseudo class::pseudo element*/
+.last-sec p::first-letter
+{
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+}
+.foot
+{
+    margin-left: 600px;
+}
+.content
+{
+    align-items: center;
+    margin-left: 50px;
+}
